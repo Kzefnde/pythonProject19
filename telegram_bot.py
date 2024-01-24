@@ -1,7 +1,6 @@
 import os
 import tempfile
 import time
-
 import cv2
 import zmq
 import telepot
@@ -106,6 +105,6 @@ def run_telegram_bot():
     while True:
         time.sleep(10)
 
-# Внесем изменения в условие __name__
+
 if __name__ == '__main__':
     run_telegram_bot()
